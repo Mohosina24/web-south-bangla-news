@@ -1,0 +1,438 @@
+/* Import fonts */
+@import url('https://fonts.maateen.me/apona-lohit/font.css');
+
+/* General Styles */
+body {
+    overflow-x: hidden;
+    font-family: 'AponaLohit', Arial, sans-serif !important;
+}
+
+h6:hover {
+    color: #0e75e5;
+}
+
+h5:hover {
+    color: #0578f5;
+}
+
+footer p:hover {
+    color: black;
+}
+
+/* Header Styles */
+.btn {
+    background: linear-gradient(#1c8de3, #0f5ebd, #118eef);
+    color: white;
+}
+
+.btn:hover {
+    background-color: #1c8de3;
+    color: white;
+}
+
+/* Navbar Styles */
+
+
+.nav-link {
+    color: black;
+    transition: all 0.3s;
+}
+
+.nav-link:hover {
+    background: linear-gradient(#1c8de3, #0f5ebd, #118eef);
+    color: white;
+    border-radius: 5px;
+}
+
+/* Main Color Codes */
+.color-code {
+    background: linear-gradient(#1c8de3, #0f5ebd, #118eef);
+}
+
+.color-code1 {
+    color: #0f5ebd;
+}
+
+.colorheading {
+    color: #0d7dd4;
+}
+
+/* Details Page Styles */
+.detailtitle {
+    font-size: 40px;
+}
+
+.social-media-icon {
+    width: 3%;
+    margin-left: 10px;
+}
+
+/* Arrow Styles */
+.arrow {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #0767af;
+}
+
+/* Border Styles */
+.bodar {
+    border-bottom: 4px solid #0a67ad;
+}
+
+.bodar1 {
+    border-top: 4px solid #0a67ad;
+}
+
+/* Footer Styles */
+h2 {
+    font-size: 60px;
+    color: #fff;
+}
+
+.social-media {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    background-color: #110101;
+}
+
+.social-media:hover {
+    background-color: #0844f6;
+}
+
+.form-button:hover {
+    background-color: #0999b3;
+    color: white;
+}
+
+/* Media Queries */
+
+/* Mobile Styles */
+@media screen and (min-width: 0px) and (max-width: 576px) {
+    h5 {
+        font-size: 15px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    small {
+        font-size: 12px;
+    }
+
+    .bodar {
+        border-bottom: 4px solid #0a67ad;
+    }
+
+    .bodar1 {
+        border-top: 4px solid #0a67ad;
+    }
+
+    .bar svg {
+        width: 30%;
+    }
+
+    .navbar-toggler {
+        font-size: 13px;
+
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+
+    }
+    .icon {
+        width: 30%;
+    }
+    /*detail page css*/
+    .detailtitle {
+        font-size: 20px;
+    }
+    .avatar{
+        width: 10%;
+        height: 40px;
+    }
+    .social-media-icon {
+        width: 6%;
+    }
+
+    h6 {
+        font-size: 15px;
+    }
+
+    small {
+        font-size: 12px;
+    }
+
+    p {
+        font-size: 13px;
+    }
+
+   .card-body h5 {
+        font-size: 12px;
+    }
+   .card-body p {
+       font-size: 10px;
+   }
+
+    .arrow {
+        margin-top: 100px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .angal {
+        width: 5%;
+    }
+
+    .footertitle {
+        font-size: 20px;
+    }
+
+    .footimg {
+        width: 30%;
+    }
+}
+
+/* Tablet Styles */
+@media screen and (min-width: 577px) and (max-width: 768px) {
+    .bar svg {
+        width: 40%;
+    }
+    .nav-link{
+        font-size:9px;
+
+    }
+
+
+    .account {
+        font-size: 15px;
+    }
+
+    .account1 {
+        font-size: 12px;
+    }
+
+    .btn {
+        font-size: 2px;
+    }
+
+    .icon svg {
+        width: 10%;
+    }
+
+    .icon1 svg {
+        width: 9%;
+    }
+
+    .icon {
+        width: 25%;
+    }
+
+    .navbar-toggler {
+        font-size: 18px;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
+    /*detail page css*/
+    .detailtitle {
+        font-size: 30px;
+    }
+    .avatar{
+        width: 10%;
+        height: 40px;
+    }
+    .social-media-icon {
+        width: 4%;
+        margin-left: 10px;
+    }
+
+    h6 {
+        font-size: 15px;
+    }
+
+    small {
+        font-size: 10px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    h5 {
+        font-size: 17px;
+    }
+
+    .angal {
+        width: 5%;
+    }
+
+    .binodon {
+        font-size: 30px;
+    }
+
+    .footertitle {
+        font-size: 20px;
+    }
+
+    .footimg {
+        width: 20%;
+    }
+
+    .social-media {
+        width: 30px;
+        height: 30px;
+        padding: 5px;
+    }
+}
+
+/* Medium Device Styles */
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .text1 {
+        font-size: 15px;
+    }
+    .nav-link{
+        font-size: 12px;
+    }
+    .account {
+        font-size: 6px;
+    }
+
+    .account1 {
+        font-size: 12px;
+    }
+
+    .icon svg {
+        width: 10%;
+    }
+
+    .icon1 svg {
+        width: 9%;
+    }
+    /*details page css*/
+    .avatar{
+        width: 10%;
+        height: 40px;
+    }
+    h6 {
+        font-size: 15px;
+    }
+
+    small {
+        font-size: 10px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    h5 {
+        font-size: 17px;
+    }
+
+    .pic {
+        width: 10%;
+    }
+
+    .social-media {
+        width: 40px;
+        height: 40px;
+        padding: 10px;
+    }
+}
+
+/* Large Device Styles */
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    .text1 {
+        font-size: 20px;
+    }
+    .nav-link{
+        font-size: 14px;
+    }
+    .account {
+        font-size: 15px;
+    }
+
+    .account1 {
+        font-size: 12px;
+    }
+
+    .icon svg {
+        width: 8%;
+    }
+
+    .icon1 svg {
+        width: 7%;
+    }
+    /*details page css*/
+    .avatar{
+        width: 10%;
+        height: 50px;
+    }
+}
+
+/* Extra Large Device Styles */
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+    .text1 {
+        font-size: 17px;
+    }
+
+    .account {
+        font-size: 18px;
+    }
+
+    .account1 {
+        font-size: 15px;
+    }
+
+    .icon svg {
+        width: 8%;
+    }
+
+    .icon1 svg {
+        width: 7%;
+    }
+    /*details page css*/
+    .avatar{
+        width: 10%;
+        height: 60px;
+    }
+}
+
+/* XX-Large Device Styles */
+@media screen and (min-width: 1401px) {
+    .text1 {
+        font-size: 17px;
+    }
+
+    .account {
+        font-size: 18px;
+    }
+
+    .account1 {
+        font-size: 15px;
+    }
+
+    .icon svg {
+        width: 8%;
+    }
+
+    .icon1 svg {
+        width: 7%;
+    }
+    /*details page css*/
+    .avatar{
+        width: 10%;
+        height: 50px;
+    }
+}
