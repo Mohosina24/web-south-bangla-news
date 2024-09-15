@@ -148,7 +148,7 @@ h2 {
 
     }
     .icon {
-        width: 30%;
+        width: 40%;
     }
     /*detail page css*/
     .detailtitle {
@@ -209,8 +209,14 @@ h2 {
         font-size:9px;
 
     }
+    .headtext{
+        font-size:11px;
+    }
 
 
+    h2{
+        font-size:40px;
+    }
     .account {
         font-size: 15px;
     }
@@ -301,6 +307,14 @@ h2 {
     .text1 {
         font-size: 15px;
     }
+    .headtext{
+        font-size:11px;
+    }
+
+
+    h2{
+        font-size:40px;
+    }
     .nav-link{
         font-size: 12px;
     }
@@ -355,6 +369,14 @@ h2 {
 @media screen and (min-width: 993px) and (max-width: 1200px) {
     .text1 {
         font-size: 20px;
+    }
+    .headtext{
+        font-size:17px;
+    }
+
+
+    h2{
+        font-size:60px;
     }
     .nav-link{
         font-size: 14px;
@@ -413,6 +435,12 @@ h2 {
 @media screen and (min-width: 1401px) {
     .text1 {
         font-size: 17px;
+    }
+    h2{
+        font-size:80px;
+    }
+    .headtext{
+        font-size:25px;
     }
 
     .account {
