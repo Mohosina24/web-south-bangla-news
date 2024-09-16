@@ -118,6 +118,9 @@ h2 {
     p {
         font-size: 12px;
     }
+    .mobileheading{
+        font-size:25px;
+    }
 
     small {
         font-size: 12px;
@@ -169,7 +172,9 @@ h2 {
     small {
         font-size: 12px;
     }
-
+    .footertitle1 {
+        font-size: 20px;
+    }
     p {
         font-size: 13px;
     }
@@ -191,8 +196,8 @@ h2 {
         width: 5%;
     }
 
-    .footertitle {
-        font-size: 20px;
+   h2{
+        font-size:30px;
     }
 
     .footimg {
@@ -212,7 +217,9 @@ h2 {
     .headtext{
         font-size:11px;
     }
-
+    .mobileheading{
+      font-size:30px;
+    }
 
     h2{
         font-size:40px;
@@ -238,7 +245,7 @@ h2 {
     }
 
     .icon {
-        width: 25%;
+        width: 30%;
     }
 
     .navbar-toggler {
@@ -288,6 +295,9 @@ h2 {
     }
 
     .footertitle {
+        font-size: 30px;
+    }
+    .footertitle1 {
         font-size: 20px;
     }
 
